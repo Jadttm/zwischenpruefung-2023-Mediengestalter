@@ -1,0 +1,41 @@
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "roboto-slab-reg";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-slab-v24-latin-regular.woff2') format('woff2'),
+  url('../fonts/roboto-slab-v24-latin-regular.woff') format('woff');
+}
+
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "roboto-slab-700";
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-slab-v24-latin-700.woff2') format('woff2'),
+  url('../fonts/roboto-slab-v24-latin-700.woff') format('woff');
+}
+
+
+
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "open-sans-reg";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v34-latin-regular.woff2") format("woff2"), 
+  url("../fonts/open-sans-v34-latin-regular.woff") format("woff");
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "open-sans-700";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v34-latin-700.woff2") format("woff2"), 
+  url("../fonts/open-sans-v34-latin-700.woff") format("woff");
+}
