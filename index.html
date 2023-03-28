@@ -17,7 +17,7 @@
     
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="img/confetti-favicon.svg">
-    <title>ZP Test</title>
+    <title>Confetti GmbH</title>
 </head>
 
 <body class="body">
@@ -41,7 +41,7 @@
             </div>
             
             <div class="hero-img">
-                <img src="img/playing-card-illustration-01.svg" alt="Senioren Spielen Karten">
+                <img src="img/hero-illustration-elder-playing-cards.svg" alt="Senioren Spielen Karten">
             </div>
         </section>
     </div>
@@ -50,7 +50,8 @@
 
         <section class="container">
             <div class="img-wrapper">
-                <img class="teaser-img" src="img/einleitung-img-06.webp" alt="Kinder und Erwachsene spielen gemeinsam Karten">
+                <img class="teaser-img" src="img/img-text-playing-cards-03.webp" alt="Kinder und Erwachsene spielen gemeinsam Karten">
+                <img class="shapes organic-top" src="img/organic-shapes-01.svg" alt="Organische Zierformen">
                 <img class="icon diamond" src="img/diamant.svg" alt="Karten icon Diamant">
             </div>
 
@@ -68,28 +69,26 @@
             </div>
 
             <div class="img-wrapper">
-                <img class="teaser-img" src="img/einleitung-img-05.webp" alt="">
+                <img class="teaser-img" src="img/img-text-playing-cards-04.webp" alt="">
+                <img class="shapes organic-bot" src="img/organic-shapes-02.svg" alt="Organische Zierformen">
                 <img class="icon ace"src="img/ass.svg" alt="Karten icon Ass">
             </div>
         </section>
 
-
-<div class="disruptor">
-    <div class="ups-wrapper">
-        <i class="icon fa-solid fa-calendar-days"></i>
-        <p>Sonntag, 29. Oktober 2023 </p>
-    </div>
-    <div class="ups-wrapper">
-        <i class="icon fa-solid fa-clock"></i>
-        <p>Beginn: 15 Uhr</p>
-    </div>
-    <div class="ups-wrapper">
-        <i class="icon fa-solid fa-utensils"></i>
-        <p>Für Essen und Trinken ist gesorgt.</p>
-    </div>
-</div>
-
-
+        <div class="disruptor">
+            <div class="ups-wrapper">
+                <i class="icon fa-solid fa-calendar-days"></i>
+                <p>Sonntag, 29. Oktober 2023 </p>
+            </div>
+            <div class="ups-wrapper">
+                <i class="icon fa-solid fa-clock"></i>
+                <p>Beginn: 15 Uhr</p>
+            </div>
+            <div class="ups-wrapper">
+                <i class="icon fa-solid fa-utensils"></i>
+                <p>Für Essen und Trinken ist gesorgt.</p>
+            </div>
+        </div>
 
         <div class="contact" id="reg-form">
             <h2>Das Fest der Spiele am Sonntag, 29. Oktober
@@ -152,8 +151,9 @@
                             </div>
 
                             <div class="input-wrap radio-wrap reg10">
-                                <input class="radio-input" type="radio" onclick="javascript:alleineoderfamilieCheck();" name="alleineoderfamilie" id="alleineCheck">
-                                <label for="alleine">alleine</label>
+                              <label for="alleineCheck">alleine</label>
+                                <input id="alleineCheck" class="radio-input" type="radio" onclick="javascript:alleineoderfamilieCheck();" name="alleineoderfamilie"  value="1">
+                                
                             </div>
 
                             <div class="input-wrap reg11 label-size jsvisibility" id="ifAlleine">
@@ -162,8 +162,8 @@
                             </div>
 
                             <div class="input-wrap radio-wrap reg12">
-                                <input class="radio-input" type="radio" onclick="javascript:alleineoderfamilieCheck();" name="alleineoderfamilie" id="familieCheck">
-                                <label for="familie">mit meiner Familie</label>
+                                <input class="radio-input" type="radio" onclick="javascript:alleineoderfamilieCheck();" name="alleineoderfamilie" id="familieCheck" value="2">
+                                <label for="familieCheck">mit meiner Familie</label>
                             </div>
 
                             <div class="input-wrap reg13 label-size jsvisibility" id="ifFam">
@@ -218,6 +218,7 @@
 
                     </div>
                 </div>
+
                 <div class="right">
                     <div class="text-wrapper">
                         <h3 class="sub-primary">50 Jahre Confetti</h3>
@@ -236,17 +237,12 @@
             </div>
         </div>
 
-    <div class="gallery-wrapper">
         <div class="gallery">
-            <div class="impression1"><img src="img/impressionen-01.webp" alt=""></div>
-            <div class="impression2"><img src="img/impressionen-02.webp" alt=""></div>
-            <div class="impression3"><img src="img/impressionen-03.webp" alt=""></div>
-            <div class="impression4"><img src="img/impressionen-04.webp" alt=""></div>
+            <div class="impression1"><img src="img/gallery-img-01.webp" alt="Kinder und Erwachsene spielen gemeinsam Karten"></div>
+            <div class="impression2"><img src="img/gallery-img-02.webp" alt="Kinder und Erwachsene spielen gemeinsam Karten"></div>
+            <div class="impression3"><img src="img/gallery-img-04.webp" alt="Kinder und Erwachsene spielen gemeinsam Karten"></div>
+            <div class="impression4"><img src="img/gallery-img-03.webp" alt="Kinder und Erwachsene spielen gemeinsam Karten"></div>
         </div>
-
-    </div>
-
-
 
         <div class="contact" id="contact-form">
             <div class="text-wrapper">
@@ -255,17 +251,16 @@
 
             <div class="container">
                 <div class="left">
-                    
                     <div class="form-wrapper">
                         <form action="index.html" method="post" class="contact-form">
                             <div class="input-wrap">
-                                <input class="contact-input" autocomplete="off" name="Name" type="text" required>
+                                <input class="contact-input" autocomplete="off" name="name" type="text" required>
                                 <label for="name">Name</label>
                                 <i class="icon fa-solid fa-address-card"></i>
                             </div>
 
                             <div class="input-wrap">
-                                <input class="contact-input" autocomplete="off" name="Email" type="email" required>
+                                <input class="contact-input" autocomplete="off" name="email" type="email" required>
                                 <label for="email">Email</label>
                                 <i class="icon fa-solid fa-envelope"></i>
                             </div>
@@ -280,9 +275,9 @@
                                 <input type="submit" value="Jetzt absenden" class="btn">
                             </div>
                         </form>
-
                     </div>
                 </div>
+                
                 <div class="right">
                     <h3 class="sub-primary">Kontakt</h3>
                     <p><strong>Anreiseplan:</strong><br>Confetti GmbH<br>Deutschordenstraße 43<br>97980 Bad Mergentheim </p>
